@@ -1,6 +1,6 @@
 # Beeper iMessage Bridge — MBA Server Setup
 
-This repository documents the MacBook Air server configuration that bridges iMessage into the [Jarvis](https://github.com/exla-ai/jarvis) home AI system.
+This repository documents the MacBook Air server configuration that bridges iMessage
 
 ## Architecture
 
