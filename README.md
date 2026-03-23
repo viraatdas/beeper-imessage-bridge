@@ -57,18 +57,26 @@ Sending iMessages programmatically requires one of:
 
 This is not yet implemented.
 
-## MBA Server Details
+## MBA Server Hardware
 
-| Property | Value |
+**MacBook Air (Mid-2012)** — Model `MacBookAir5,2`
+
+| Spec | Value |
 |---|---|
+| Model | MacBook Air Mid-2012 (MacBookAir5,2) |
+| CPU | Intel Core i5-3427U @ 1.80 GHz (2 cores, HT) |
+| RAM | 8 GB |
+| Storage | 223 GB SSD (~170 GB free) |
+| macOS | 15.7.4 (Sequoia) |
 | Hostname | `Viraats-MacBook-Air.local` |
 | User | `viraat` |
-| macOS | Darwin 24.6.0 |
 | Python | 3.11 (via uv) |
 | uv | 0.10.12 |
-| Access | Tailscale SSH |
+| Access | Tailscale SSH (always-on) |
 | Jarvis repo | `~/Documents/exla/jarvis` |
 | Git identity | `viraat.laldas@gmail.com` / `Viraat Das (MBA Server)` |
+
+This is a 2012 MacBook Air repurposed as an always-on headless server. It's low-power and stays connected via Tailscale for remote SSH access. Its primary role in the Jarvis system is as the iMessage bridge — it's the only machine with an Apple ID signed into Messages and access to `chat.db`.
 
 ## Setup Steps (reproduced)
 
